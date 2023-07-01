@@ -1,0 +1,70 @@
+*, ul, li, a, a:active, a:hover, a:visited {
+    color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 16px 32px 0 32px;
+    box-shadow: 1px 5px 50px #0000002a inset;
+    border: none;
+    outline: none;
+    
+}
+
+nav {
+    justify-content: space-between;
+    
+}
+
+main {
+    height: 100vh;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+
+
+.div-bg {
+    height: 100vh;
+}
+
+#bg-1 {
+    background-image: url(../Images/FACHADA\ 01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+
+}
+
+#bg-2 {
+    background-image: url(../Images/FACHADA\ 02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+#bg-3 {
+    background-image: url(../Images/QUARTO\ ROMERO.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  
+}
+
+#bg-4 {
+    background-image: url(../Images/Sala-moderna-com-painel-madeirado.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
