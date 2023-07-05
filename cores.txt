@@ -1,2 +1,7 @@
 CORES
 Principal: 
+
+    --verde-principal: #3c5139;
+    --cinza-escuro: #939393;
+    --cinza-claro: #c2cace;
+    --grafite: #2b2b2b;

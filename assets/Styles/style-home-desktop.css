@@ -1,3 +1,14 @@
+:root {
+    /* font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+    --verde-principal: #3c5139;
+    --cinza-escuro: #939393;
+    --cinza-claro: #c2cace;
+    --grafite: #2b2b2b;
+    --font-primaria: 'Roboto', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
 *, ul, li, a, a:active, a:hover, a:visited {
     color: #fff;
     box-sizing: border-box;
@@ -67,4 +78,18 @@ main {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: var(--font-secundaria);
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 10px black;
 }
